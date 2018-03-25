@@ -12,11 +12,31 @@
     <!-- Added link to the jQuery Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+
     <!-- Styles -->
         <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Make holidays more fun with a GIF!</h1>
+        <form id="gif-form">
+        <!-- Search area -->
+          <input type="text" id="gif-input">
+          <br>
+        <!-- Button to add/search gif -->
+          <input id="search-gif" type="submit" value="Search">
+        </form>
+        
+        <!-- Gif topic buttons go here  -->
+        <div id="buttons-view"></div>
+        
+        <!-- Actual gifs go here -->
+        <div id="gif-view"></div>
+    </div>
+    <!-- Added link to the ajax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Add lnk to js file -->
+    <script src="./assets/javasript/app.js"></script>
 </body>
 </html>
