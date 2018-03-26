@@ -1,2 +1,16 @@
 @import url(./reset.css);
 
+body{
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.gif{
+    width: fit-content;
+    display: inline-table;
+    margin:15px;
+}
+
